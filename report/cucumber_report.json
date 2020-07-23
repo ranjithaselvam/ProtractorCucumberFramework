@@ -1,0 +1,223 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Falcon dashboard",
+    "line": 1,
+    "id": "falcon-dashboard",
+    "tags": [],
+    "uri": "features\\dashboard.feature",
+    "elements": [
+      {
+        "id": "falcon-dashboard;open-falcon-dashboard",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open falcon dashboard",
+        "tags": [
+          {
+            "name": "@dashboard",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "Verify the user landed on to the dashboard \"dashboard\"",
+            "match": {
+              "location": "stepdefinitions\\dashboard.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7925000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Verify the refersh icon is available on the tab dashboard page",
+            "match": {
+              "location": "stepdefinitions\\dashboard.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Verify atmecs logo on the dashboard page",
+            "match": {
+              "location": "stepdefinitions\\dashboard.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "listOfItemCount",
+                      "43"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify whether all the project available on the dashboard page by project count",
+            "match": {
+              "location": "stepdefinitions\\dashboard.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click REST API TEST RESULT Link in dashboard",
+            "match": {
+              "location": "stepdefinitions\\dashboard.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Select status as pass",
+            "match": {
+              "location": "stepdefinitions\\dashboard.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4353000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "satus",
+                      "pass"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Able to get only pass test cases",
+            "match": {
+              "location": "stepdefinitions\\dashboard.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 964000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User click on toggle button",
+            "match": {
+              "location": "stepdefinitions\\dashboard.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "status",
+                      "details"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "testrun",
+                      "10 TEST(S)"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "pass",
+                      "9"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "fail",
+                      "1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "skip",
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User can able to view test status",
+            "match": {
+              "location": "stepdefinitions\\dashboard.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "support\\hooks.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
